@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/santi343/AluraGeek#readme",
   "dependencies": {
-    "express": "^4.18.1",
     "normalize": "^0.3.1"
   }
 }
