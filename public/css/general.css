@@ -1,0 +1,8 @@
+a {
+  text-decoration: none;
+  color: var(--color-negro);
+}
+
+li {
+  list-style: none;
+}
