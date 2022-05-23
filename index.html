@@ -12,29 +12,32 @@
   </head>
   <body>
     <header>
-      <div class="menu menu1">
-        <nav class="menu">
+      <div class="encabezado__header">
+        <div>
           <a href="index.html">
             <img src="./public/img/logo.png" alt="" />
           </a>
+        </div>
+        <div>
           <form action="">
             <input type="text" placeholder="¿Qué desea Buscar?" />
-            <button>
+            <button type="submit">
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
-        </nav>
-
-        <a href="#">
-          <button>Login</button>
-        </a>
+        </div>
+        <div>
+          <a href="#">
+            <button type="submit">Login</button>
+          </a>
+        </div>
       </div>
       <div class="banner__geek">
         <div class="banner__container">
           <h2 class="banner__titulo">Mayo Promocional</h2>
-          <p class="banner__descripcion">
+          <h4 class="banner__descripcion">
             Productos seleccionados con 33% de descuento
-          </p>
+          </h4>
           <a href="#seccion-consolas" id="boton-ver-consolas">
             <button class="banner__boton boton">Ver Consolas</button>
           </a>
@@ -42,17 +45,17 @@
       </div>
     </header>
     <main>
+      <!--section starWards-->
       <section class="starWards">
         <div class="productos__encabezado">
-          <h2 class="productos__titulo">
+          <h3 class="productos__titulo">
             <a href="#">Star Wards</a>
-          </h2>
+          </h3>
           <a href="#" class="productos__ver-todo">
             Ver todo
             <i class="fa-solid fa-arrow-right-long"></i>
           </a>
         </div>
-
         <div class="productos__cuerpo">
           <div class="item">
             <a href="#">
@@ -65,7 +68,6 @@
             <p class="item__precio">$ 60.00</p>
             <a class="item__enlace" href="#">Ver producto</a>
           </div>
-
           <div class="item">
             <a href="#">
               <img
@@ -77,7 +79,6 @@
             <p class="item__precio">$ 60.00</p>
             <a class="item__enlace" href="#">Ver producto</a>
           </div>
-
           <div class="item">
             <a href="#">
               <img
@@ -89,7 +90,6 @@
             <p class="item__precio">$ 60.00</p>
             <a class="item__enlace" href="#">Ver producto</a>
           </div>
-
           <div class="item">
             <a href="#">
               <img
@@ -101,7 +101,6 @@
             <p class="item__precio">$ 60.00</p>
             <a class="item__enlace" href="#">Ver producto</a>
           </div>
-
           <div class="item">
             <a href="#">
               <img
@@ -113,7 +112,6 @@
             <p class="item__precio">$ 60.00</p>
             <a class="item__enlace" href="#">Ver producto</a>
           </div>
-
           <div class="item">
             <a href="#">
               <img
@@ -127,17 +125,18 @@
           </div>
         </div>
       </section>
+
+      <!--section consolas-->
       <section class="consolas">
         <div class="productos__encabezado">
-          <h2 class="productos__titulo">
+          <h3 class="productos__titulo">
             <a href="#">Consolas</a>
-          </h2>
+          </h3>
           <a href="#" class="productos__ver-todo">
             Ver todo
             <i class="fa-solid fa-arrow-right-long"></i>
           </a>
         </div>
-
         <div class="productos__cuerpo">
           <div class="item">
             <a href="#">
@@ -150,7 +149,6 @@
             <p class="item__precio">$ 60.00</p>
             <a class="item__enlace" href="#">Ver producto</a>
           </div>
-
           <div class="item">
             <a href="#">
               <img
@@ -162,7 +160,6 @@
             <p class="item__precio">$ 60.00</p>
             <a class="item__enlace" href="#">Ver producto</a>
           </div>
-
           <div class="item">
             <a href="#">
               <img
@@ -174,7 +171,6 @@
             <p class="item__precio">$ 60.00</p>
             <a class="item__enlace" href="#">Ver producto</a>
           </div>
-
           <div class="item">
             <a href="#">
               <img
@@ -186,7 +182,6 @@
             <p class="item__precio">$ 60.00</p>
             <a class="item__enlace" href="#">Ver producto</a>
           </div>
-
           <div class="item">
             <a href="#">
               <img
@@ -198,7 +193,6 @@
             <p class="item__precio">$ 60.00</p>
             <a class="item__enlace" href="#">Ver producto</a>
           </div>
-
           <div class="item">
             <a href="#">
               <img
@@ -212,17 +206,18 @@
           </div>
         </div>
       </section>
+
+      <!--section diversos-->
       <section class="diversos">
         <div class="productos__encabezado">
-          <h2 class="productos__titulo">
+          <h3 class="productos__titulo">
             <a href="#">Diversos</a>
-          </h2>
+          </h3>
           <a href="#" class="productos__ver-todo">
             Ver todo
             <i class="fa-solid fa-arrow-right-long"></i>
           </a>
         </div>
-
         <div class="productos__cuerpo">
           <div class="item">
             <a href="#">
@@ -235,7 +230,6 @@
             <p class="item__precio">$ 60.00</p>
             <a class="item__enlace" href="#">Ver producto</a>
           </div>
-
           <div class="item">
             <a href="#">
               <img
@@ -247,7 +241,6 @@
             <p class="item__precio">$ 60.00</p>
             <a class="item__enlace" href="#">Ver producto</a>
           </div>
-
           <div class="item">
             <a href="#">
               <img
@@ -297,6 +290,8 @@
           </div>
         </div>
       </section>
+
+      <!--section formulario-->
       <section class="formulario">
         <div class="formulario__left">
           <div>
@@ -313,19 +308,38 @@
             <h4><a href="#">Anúncie aqui</a></h4>
           </div>
         </div>
-        <div>
+        <div class="formulario__right">
           <h3>Hable con nosotros</h3>
           <form action="">
             <div>
               <label for="name">
+                Nombre
+                <span>&nbsp;</span>
                 <input type="text" name="name" id="" placeholder="Nombre" />
               </label>
             </div>
             <textarea name="msg" id="" cols="30" rows="5"></textarea>
+            <div>
+              <input type="submit" value="Enviar Mensaje" />
+            </div>
           </form>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>Copyright © 2022 Quispe, Zacarías Santiago</p>
+      <div>
+        <a href="https://github.com/santi343" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <span>&nbsp;</span>
+        <a
+          href="https://www.linkedin.com/in/zacar%C3%ADas-santiago-quispe-869b5a217/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
