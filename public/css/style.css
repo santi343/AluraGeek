@@ -2,5 +2,8 @@
 /*@import "~normalize.css/normalize.css";*/
 /*@import url("../../node_modules/normalize/index.styl/normalize.css");*/
 @import url("./normalize.css");
+@import url("./general.css");
 @import url("./index/home.css");
+@import url("./login.css");
+@import url("./productos.css");
 

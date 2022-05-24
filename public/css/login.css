@@ -1,0 +1,37 @@
+.iniciar__sesion {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 0;
+}
+.formulario__sesion {
+  margin-top: 0;
+}
+.iniciar__sesion form input {
+  padding: 20px;
+  width: 30%;
+  border: none;
+  margin-bottom: 25px;
+}
+.iniciar__sesion div:last-child input {
+  background-color: var(--main-bg-azul);
+  padding: 20px;
+  width: 33%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1250px) {
+  .iniciar__sesion form input {
+    width: 50%;
+  }
+  .iniciar__sesion div:last-child input {
+    width: 54%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .iniciar__sesion form input {
+    width: 70%;
+  }
+  .iniciar__sesion div:last-child input {
+    width: 32.2%;
+  }
+}

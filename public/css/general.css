@@ -1,3 +1,10 @@
+:root {
+  --main-bg-azul: #2A7AE4;
+  --main-bg-preto: #F5F5F5;
+  --main-bg-grisOscuro: #666;
+  --main-bg-grisClaro: #ebebeb;
+  --main-bg-verde: #39b54a;
+}
 a {
   text-decoration: none;
   color: var(--color-negro);
