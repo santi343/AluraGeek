@@ -1,1 +1,41 @@
+.agregar__producto {
+  width: 45%;
+}
+.label50 {
+  /*width: 100%;*/
+  color: #00000060;
+  line-height: 1.5rem;
+  padding: 5px;
+}
+.label50 input,
+.label50 select {
+  padding: 5px;
+  width: 95%;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.agregar__producto div,
+.agregar__producto select {
+  background: #ffffff;
+}
+.agregar__producto div,
+.agregar__producto textarea {
+  margin-bottom: 20px;
+}
 
+.agregar__producto div:last-child input {
+  background-color: var(--main-bg-azul);
+  padding: 20px;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1250px) {
+  .agregar__producto {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .agregar__producto {
+    width: 95%;
+  }
+}
