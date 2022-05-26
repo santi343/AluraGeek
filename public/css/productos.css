@@ -8,6 +8,23 @@
   margin-top: 40px;
   margin-bottom: 40px;
 }
+.imagen__producto {
+  position: relative;
+}
+.imagen__producto a {
+  position: absolute;
+  top: 5%;
+}
+.imagen__producto .a1 {
+  left: 60%;
+}
+.imagen__producto .a2 {
+  left: 75%;
+}
+.imagen__producto a i {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1250px) {
   .todos__productos__cuerpo {
@@ -27,5 +44,11 @@
   .todos__productos__cuerpo .item:last-child,
   .todos__productos__cuerpo .item:nth-child(5) {
     display: block;
+  }
+  .imagen__producto .a1 {
+    left: 70%;
+  }
+  .imagen__producto .a2 {
+    left: 85%;
   }
 }
