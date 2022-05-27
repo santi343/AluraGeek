@@ -1,16 +1,17 @@
 .agregar__producto {
   width: 45%;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .label50 {
-  /*width: 100%;*/
   color: #00000060;
   line-height: 1.5rem;
   padding: 5px;
 }
 .label50 input,
-.label50 select {
+.label50 select{
   padding: 5px;
-  width: 95%;
+  width: 98.5%;
   border: none;
   outline: none;
   resize: none;
@@ -22,6 +23,10 @@
 .agregar__producto div,
 .agregar__producto textarea {
   margin-bottom: 20px;
+}
+.agregar__producto textarea{
+  width: 98.5%;
+  padding: 5px;
 }
 
 .agregar__producto div:last-child input {
@@ -36,6 +41,6 @@
 }
 @media only screen and (max-width: 767px) {
   .agregar__producto {
-    width: 95%;
+    width: 90%;
   }
 }
