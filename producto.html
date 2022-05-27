@@ -34,59 +34,105 @@
       </div>
     </header>
     <main>
-      <!--section agregar producto-->
-      <section class="agregar__producto">
-        <h2>Agregar Producto</h2>
-        <form action="">
-          <div>
-            <label for="url" class="label50">
-              URL de la Imagen
-              <span>&nbsp;</span>
-              <input
-                type="url"
-                name="url"
-                id="urlProducto"
-                placeholder="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAA.png"
+      <!--section producto-->
+      <section class="producto">
+        <div class="product__left">
+          <img
+            src="./public/img/productos/consolas-01.png"
+            alt="img producto"
+          />
+        </div>
+        <div class="product__right">
+          <h2>Producto XYZ</h2>
+          <p class="item__precio">$ 60.00</p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+            molestias quaerat quo optio nemo pariatur ipsam. Odit praesentium
+            possimus nulla enim ducimus facere laboriosam eius. Facilis, nemo?
+            Modi, asperiores ipsam?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+            molestias quaerat quo optio nemo pariatur ipsam. Odit praesentium
+            possimus nulla enim ducimus facere laboriosam eius. Facilis, nemo?
+            Modi, asperiores ipsam?
+          </p>
+        </div>
+      </section>
+
+      <!--section productos similares-->
+      <section class="productos__similares">
+        <div class="productos__encabezado">
+          <h3 class="producto__titulo">
+            <a href="#">Productos Similares</a>
+          </h3>
+        </div>
+        <div class="productos__cuerpo">
+          <div class="item">
+            <a href="./producto.html">
+              <img
+                src="./public/img/productos/starwars-01.png"
+                alt="img producto"
               />
-            </label>
+            </a>
+            <p class="item__nombre">Producto XYZ</p>
+            <p class="item__precio">$ 60.00</p>
+            <a class="item__enlace" href="./producto.html">Ver producto</a>
           </div>
-          <div>
-            <label for="category" class="label50">
-              Categoría
-              <select name="category" id="categoryProducto" style="width: 100%">
-                <option value="starWards" selected>Star Wards</option>
-                <option value="consolas">Consolas</option>
-                <option value="diversos">Diversos</option>
-              </select>
-            </label>
-          </div>
-          <div>
-            <label for="nameProduct" class="label50">
-              Nombre del Producto
-              <input type="text" name="nameProduct" id="nameProduct" placeholder="Producto XYZ"/>
-            </label>
-          </div>
-          <div>
-            <label for="priceProduct" class="label50">
-              Precio del Producto $
-              <input
-                type="number"
-                step=".5"
-                name="priceProduct"
-                id="priceProduct"
-                value="70.5"
+          <div class="item">
+            <a href="./producto.html">
+              <img
+                src="./public/img/productos/starwars-02.png"
+                alt="img producto"
               />
-            </label>
+            </a>
+            <p class="item__nombre">Producto XYZ</p>
+            <p class="item__precio">$ 60.00</p>
+            <a class="item__enlace" href="./producto.html">Ver producto</a>
           </div>
-          <textarea
-            name="description"
-            id="descriptionProducto"
-            cols="30"
-            rows="10"
-            placeholder="Descripción del Producto"
-          ></textarea>
-          <div><input type="submit" value="Agregar Producto" /></div>
-        </form>
+          <div class="item">
+            <a href="./producto.html">
+              <img
+                src="./public/img/productos/starwars-03.png"
+                alt="img producto"
+              />
+            </a>
+            <p class="item__nombre">Producto XYZ</p>
+            <p class="item__precio">$ 60.00</p>
+            <a class="item__enlace" href="./producto.html">Ver producto</a>
+          </div>
+          <div class="item">
+            <a href="./producto.html">
+              <img
+                src="./public/img/productos/starwars-04.png"
+                alt="img producto"
+              />
+            </a>
+            <p class="item__nombre">Producto XYZ</p>
+            <p class="item__precio">$ 60.00</p>
+            <a class="item__enlace" href="./producto.html">Ver producto</a>
+          </div>
+          <div class="item">
+            <a href="./producto.html">
+              <img
+                src="./public/img/productos/starwars-05.png"
+                alt="img producto"
+              />
+            </a>
+            <p class="item__nombre">Producto XYZ</p>
+            <p class="item__precio">$ 60.00</p>
+            <a class="item__enlace" href="./producto.html">Ver producto</a>
+          </div>
+          <div class="item">
+            <a href="./producto.html">
+              <img
+                src="./public/img/productos/starwars-06.png"
+                alt="img producto"
+              />
+            </a>
+            <p class="item__nombre">Producto XYZ</p>
+            <p class="item__precio">$ 60.00</p>
+            <a class="item__enlace" href="./producto.html">Ver producto</a>
+          </div>
+        </div>
       </section>
 
       <!--section formulario-->
@@ -141,4 +187,3 @@
     </footer>
   </body>
 </html>
-
