@@ -3,6 +3,14 @@
   grid-template-columns: repeat(6, 1fr);
   gap: 0.3rem;
 }
+.btn__agregar-producto input{
+  padding: 8px 80px;
+  padding: 3% 10%;
+  color: #ffffff;
+  background: var(--main-bg-azul);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 /*item*/
 .todos__productos .item {
   margin-top: 40px;
